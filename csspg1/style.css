@@ -1,6 +1,53 @@
+/*RESET*/
 *{
-    font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+
+/* FONT */
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* HEADER */
+header{
+    background-color: white;
+    padding: 10px 20px;
+    margin-bottom: 50px;
+}
+#logo{
+    vertical-align: middle;
+}
+h1{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+/* CORPO CENTRALE */
+body{
+    
+    background-color: #F6F8F9;
+}
+.Container{
+    width: 75%;
+    margin: 0 auto;
+}
+.bg-white
+{
+    background-color: white;
+}
+.button-container{
+    padding: 10px 20px;
+    border-bottom: 1px solid #F6F8F9;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+}
+.list-container{
+    padding: 50px 20px;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
 }
