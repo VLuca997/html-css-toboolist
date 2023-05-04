@@ -30,7 +30,8 @@ h1{
 /* CORPO CENTRALE */
 body{
     
-    background-color: #F6F8F9;
+    /* background-color: #F6F8F9; */
+    background-color: red;
 }
 .Container{
     width: 75%;
@@ -42,7 +43,7 @@ body{
 }
 .button-container{
     padding: 10px 20px;
-    border-bottom: 1px solid #F6F8F9;
+    border-bottom: 4px solid #F6F8F9;
     border-top-left-radius: 9px;
     border-top-right-radius: 9px;
 }
@@ -51,15 +52,15 @@ body{
     border-bottom-left-radius: 9px;
     border-bottom-right-radius: 9px;
 }
-/* BOTTONI */
+/* BUTTON UP PAGE */
 .Button{
     border: 1px solid lightgray;
     color: lightgray;
     padding: 5px 10px;
     border-radius: 4px;
     background-color: white;
-     font-weight: 600;
-     font-size: 1em;
+    font-weight: 600;
+    font-size: 1em;
 }
 .ButtonColor{
     color: white;
@@ -67,3 +68,34 @@ body{
     border-color: #47adf1;
 }
 
+/* BOTTONI DX RIGHE */
+.editorial{
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: small;
+    background-color: #45ABEA;
+    color: white;
+}
+/* SEZIONE 1 */
+.Title-List{
+    font-size: 1.7em;
+    
+}
+.list{
+    padding-left: 15px;
+    list-style: none;
+}
+.check{
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+    border: 1px solid black;
+    border-radius: 50%;
+    text-align: center;
+    
+}
+.colorcheck{
+    color: green;
+    border-color: green;
+}
