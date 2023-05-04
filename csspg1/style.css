@@ -26,12 +26,27 @@ h1{
     vertical-align: middle;
 }
 
+/* BUTTON UP PAGE */
+.Button{
+    border: 1px solid lightgray;
+    color: lightgray;
+    padding: 5px 10px;
+    border-radius: 4px;
+    background-color: white;
+    font-weight: 600;
+    font-size: 1em;
+}
+.ButtonColor{
+    color: white;
+    background-color: #47adf1;
+    border-color: #47adf1;
+}
 
 /* CORPO CENTRALE */
 body{
     
-    /* background-color: #F6F8F9; */
-    background-color: red;
+    background-color: #F6F8F9;
+    
 }
 .Container{
     width: 75%;
@@ -52,39 +67,17 @@ body{
     border-bottom-left-radius: 9px;
     border-bottom-right-radius: 9px;
 }
-/* BUTTON UP PAGE */
-.Button{
-    border: 1px solid lightgray;
-    color: lightgray;
-    padding: 5px 10px;
-    border-radius: 4px;
-    background-color: white;
-    font-weight: 600;
-    font-size: 1em;
-}
-.ButtonColor{
-    color: white;
-    background-color: #47adf1;
-    border-color: #47adf1;
-}
-
-/* BOTTONI DX RIGHE */
-.editorial{
-    display: inline-block;
-    padding: 5px 10px;
-    border-radius: 15px;
-    font-size: small;
-    background-color: #45ABEA;
-    color: white;
-}
-/* SEZIONE 1 */
 .Title-List{
     font-size: 1.7em;
+    margin-bottom: 10px;
     
 }
 .list{
     padding-left: 15px;
     list-style: none;
+}
+.list li{
+    margin-bottom: 15px;
 }
 .check{
     display: inline-block;
@@ -95,7 +88,71 @@ body{
     text-align: center;
     
 }
+.colorcross{
+    color: red;
+    border-color: red;
+
+}
 .colorcheck{
     color: green;
     border-color: green;
+}
+
+/* BOTTONI DX RIGHE SEZIONE1*/
+.editorial{
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: small;
+    background-color: #45ABEA;
+    color: white;
+}
+
+/* BOTTONI DX RIGHE SEZIONE2*/
+.Q1Goals{
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: small;
+    background-color: #9C72E4;
+    color: white;
+}
+.Recruiting{  
+     display: inline-block;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: small;
+    background-color:#64C0A9;
+    color: white;
+}
+.Mobile{
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: small;
+    background-color: #F29E33;
+    color: white;
+} 
+
+/* BOTTONI DX RIGHE SEZIONE3*/
+.Website{
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: small;
+    background-color: #D863A1;
+    color: white;
+}
+.Sales{
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: small;
+    background-color: #AFC825;
+    color: white;
+}
+
+#movetotheright{
+    margin-left: 10px;
+    display: inline-block;
 }
